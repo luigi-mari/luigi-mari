@@ -1,0 +1,72 @@
+<svg width="1248" height="420" viewBox="0 0 1248 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What I'm interested in">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1526"/>
+      <stop offset="1" stop-color="#0A0F1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="1247" height="419" rx="14" fill="url(#pbg)" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+  <!-- ===== row 1 ===== -->
+  <!-- card: systematic strategies -->
+  <rect x="28" y="24" width="386" height="204" rx="10" fill="#151E33" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="48" y="60" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E9EEF8">Systematic strategies and backtesting</text>
+  <rect x="48" y="72" width="30" height="3" rx="1.5" fill="#F5A623"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9FB0CC">
+    <text x="48" y="100">Building and stress-testing rotation strategies:</text>
+    <text x="48" y="119">ETF rotation, momentum waterfalls across the Nasdaq</text>
+    <text x="48" y="138">universe (with and without survivorship bias), and</text>
+    <text x="48" y="157">cost-aware execution benchmarked against SPY. I care</text>
+    <text x="48" y="176">more about whether a result survives realistic costs</text>
+    <text x="48" y="195">and out-of-sample testing than about the headline</text>
+    <text x="48" y="214">return.</text>
+  </g>
+
+  <!-- card: signal diagnostics -->
+  <rect x="430" y="24" width="386" height="204" rx="10" fill="#151E33" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="450" y="60" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E9EEF8">Signal and feature diagnostics</text>
+  <rect x="450" y="72" width="30" height="3" rx="1.5" fill="#F5A623"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9FB0CC">
+    <text x="450" y="100">Before trusting a signal, I try to break it:</text>
+    <text x="450" y="119">information-coefficient audits, redundancy maps</text>
+    <text x="450" y="138">between features, and alpha-orthogonality tests to</text>
+    <text x="450" y="157">check that each feature adds something the others</text>
+    <text x="450" y="176">don't.</text>
+  </g>
+
+  <!-- card: ML for finance -->
+  <rect x="832" y="24" width="386" height="204" rx="10" fill="#151E33" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="852" y="60" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E9EEF8">Machine learning for finance</text>
+  <rect x="852" y="72" width="30" height="3" rx="1.5" fill="#F5A623"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9FB0CC">
+    <text x="852" y="100">Tree-based models (XGBoost, LightGBM LambdaRank),</text>
+    <text x="852" y="119">SHAP for interpretation, and robust depth regression</text>
+    <text x="852" y="138">for outliers, and above all knowing when a simpler</text>
+    <text x="852" y="157">deterministic filter beats the model once costs and</text>
+    <text x="852" y="176">robustness are included.</text>
+  </g>
+
+  <!-- ===== row 2 (centered pair) ===== -->
+  <!-- card: industrial data science -->
+  <rect x="28" y="246" width="584" height="150" rx="10" fill="#151E33" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="48" y="282" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E9EEF8">Industrial data science</text>
+  <rect x="48" y="294" width="30" height="3" rx="1.5" fill="#F5A623"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9FB0CC">
+    <text x="48" y="322">Where I started: SDE-based predictive maintenance on</text>
+    <text x="48" y="341">thermal time-series, and pricing optimisation under</text>
+    <text x="48" y="360">raw-material risk.</text>
+  </g>
+
+  <!-- card: agent pipelines -->
+  <rect x="636" y="246" width="584" height="150" rx="10" fill="#151E33" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="656" y="282" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#E9EEF8">Agent pipelines</text>
+  <rect x="656" y="294" width="30" height="3" rx="1.5" fill="#F5A623"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9FB0CC">
+    <text x="656" y="322">Designing pipelines of AI agents that automate parts</text>
+    <text x="656" y="341">of the research workflow, from data ingestion and</text>
+    <text x="656" y="360">feature generation to backtesting and reporting,</text>
+    <text x="656" y="379">with the testing steps kept explicit and checkable.</text>
+  </g>
+</svg>
