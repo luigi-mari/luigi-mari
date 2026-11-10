@@ -41,14 +41,22 @@
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
-## 🚀 What I'm Focused On
+## What I'm interested in
 
-```text
-├── 📊 Quant Strategies & Backtesting    ► ETF rotation, momentum waterfalls, cost-aware execution vs SPY
-├── 🧪 Feature Diagnostics               ► IC audits, redundancy maps, alpha-orthogonality tests
-├── 🤖 Machine Learning in Finance       ► XGBoost / LightGBM (LambdaRank), SHAP, robust depth regression
-└── ⚙️ Industrial Data Science           ► SDE-based predictive maintenance, pricing optimization under risk
-```
+**Systematic strategies and backtesting**
+Building and stress-testing rotation strategies: ETF rotation, momentum waterfalls across the Nasdaq universe (with and without survivorship bias), and cost-aware execution benchmarked against SPY. I care more about whether a result survives realistic costs and out-of-sample testing than about the headline return.
+
+**Signal and feature diagnostics**
+Before trusting a signal, I try to break it: information-coefficient audits, redundancy maps between features, and alpha-orthogonality tests to check that each feature adds something the others don't.
+
+**Machine learning for finance**
+Tree-based models (XGBoost, LightGBM LambdaRank), SHAP for interpretation, and robust depth regression for outliers, and above all knowing when a simpler deterministic filter beats the model once costs and robustness are included.
+
+**Industrial data science**
+Where I started: SDE-based predictive maintenance on thermal time-series, and pricing optimisation under raw-material risk.
+
+**Agent pipelines**
+Designing pipelines of AI agents that automate parts of the research workflow, from data ingestion and feature generation to backtesting and reporting, with the testing steps kept explicit and checkable.
 
 ---
 
