@@ -4,7 +4,7 @@
 
 ### **Quantitative Finance • Machine Learning • Risk Management**
 
-*Industrial engineer and quantitative analyst by background — now applying a decade of data science to systematic strategies, rigorous model validation, and risk-aware decision making.*
+*Mechanical engineer and quantitative analyst by background, now applying years of industrial data science to systematic strategies, rigorous model validation, and risk-aware decision making.*
 
 ---
 
@@ -18,9 +18,9 @@
 
 ## 👨‍💻 About Me
 
-* 🎓 **Education**: Master in Risk Management (MRM), **University of Pisa** · B.Eng Industrial & Electrical Engineering
-* 💼 **Experience**: Technical Product Manager & Quantitative Analyst at **Elcon** — pricing optimization under raw-material risk, ML models for predictive thermal drift (mean-reverting SDEs), margin-control dashboards that cut sales-office workload by 75%
-* 📈 **Focus**: Transitioning from industrial data science into **Quantitative Finance** and corporate risk management — systematic strategies, feature validation, portfolio construction
+* 🎓 **Education**: Master in Risk Management (MRM), **University of Pisa** · B.Eng Mechanical Engineering
+* 💼 **Experience**: Technical Product Manager (QA) and R&D engineer at an electrical engineering company which supplies MV products to utilities and privates all over the world
+* 📈 **Focus**: Transitioning from industrial data science into **Quantitative Finance** and corporate risk management: systematic strategies, feature validation, portfolio construction
 
 ---
 
