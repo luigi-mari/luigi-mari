@@ -18,7 +18,7 @@
 
 ## 👨‍💻 About Me
 
-* 🎓 **Education**: Master in Risk Management (MRM), **University of Pisa** · B.Eng Mechanical Engineering
+* 🎓 **Education**: Master in Risk Management (MRM) - Data Science for Finance, **University of Pisa** · B.Eng Mechanical Engineering, **University of Salerno**
 * 💼 **Experience**: Technical Product Manager (QA) and R&D engineer at an electrical engineering company which supplies MV products to utilities and privates all over the world
 * 📈 **Focus**: Transitioning from industrial data science into **Quantitative Finance** and corporate risk management: systematic strategies, feature validation, portfolio construction
 
