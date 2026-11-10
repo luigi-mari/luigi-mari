@@ -1,0 +1,79 @@
+<svg width="1248" height="480" viewBox="0 0 1248 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Notebook portfolio - open on GitHub Pages">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1526"/>
+      <stop offset="1" stop-color="#0A0F1C"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4C84FF"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="1247" height="479" rx="14" fill="url(#pbg)" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+  <!-- ===== left column ===== -->
+  <text x="48" y="92" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#F5A623">LIVE ON GITHUB PAGES</text>
+  <text x="48" y="140" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#E9EEF8">Notebook Portfolio</text>
+  <text x="48" y="172" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#9FB0CC">Systematic strategies · signal diagnostics · ML experiments</text>
+
+  <text x="48" y="236" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#5C6B8A">INSIDE THE PORTFOLIO</text>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#C9D4E8">
+    <path d="M48 254 l7 6 -7 6 z" fill="#F5A623"/>
+    <text x="66" y="266">Nasdaq-100 Momentum Waterfall</text>
+    <path d="M48 282 l7 6 -7 6 z" fill="#F5A623"/>
+    <text x="66" y="294">Naked Options Simulation</text>
+    <path d="M48 310 l7 6 -7 6 z" fill="#F5A623"/>
+    <text x="66" y="322">Robust Regression &amp; Outlier Handling</text>
+  </g>
+
+  <!-- CTA button -->
+  <rect x="48" y="360" width="216" height="46" rx="23" fill="#F5A623"/>
+  <text x="156" y="390" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0E1526">Open portfolio →</text>
+
+  <!-- ===== right column: notebook window mockup ===== -->
+  <rect x="620" y="72" width="584" height="352" rx="12" fill="#101729" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <!-- title bar -->
+  <circle cx="644" cy="96" r="5.5" fill="#FF5F57"/>
+  <circle cx="663" cy="96" r="5.5" fill="#FEBC2E"/>
+  <circle cx="682" cy="96" r="5.5" fill="#28C840"/>
+  <text x="912" y="100" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#5C6B8A">momentum_waterfall.ipynb</text>
+  <line x1="620" y1="114" x2="1204" y2="114" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+  <!-- code cell -->
+  <rect x="636" y="130" width="552" height="136" rx="8" fill="#0C1322"/>
+  <text x="650" y="156" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="#F5A623">In [1]:</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="12.5">
+    <text x="704" y="156" fill="#C9D4E8">universe = nasdaq100(mode=<tspan fill="#F5A623">"total"</tspan>)  <tspan fill="#5C6B8A"># no survivorship bias</tspan></text>
+    <text x="704" y="180" fill="#C9D4E8">mom      = close.pct_change(<tspan fill="#F5A623">63</tspan>)</text>
+    <text x="704" y="204" fill="#C9D4E8">rank     = mom.rank(pct=<tspan fill="#F5A623">True</tspan>)</text>
+    <text x="704" y="228" fill="#C9D4E8">book     = equal_weight(rank, top_n=<tspan fill="#F5A623">25</tspan>).rebalance(<tspan fill="#F5A623">"M"</tspan>)</text>
+    <text x="704" y="252" fill="#C9D4E8">equity   = book.run(costs_bps=<tspan fill="#F5A623">10</tspan>).vs(<tspan fill="#F5A623">"SPY"</tspan>)</text>
+  </g>
+
+  <!-- output: equity curve vs SPY -->
+  <line x1="652" y1="296" x2="1174" y2="296" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <line x1="652" y1="326" x2="1174" y2="326" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <line x1="652" y1="356" x2="1174" y2="356" stroke="#FFFFFF" stroke-opacity="0.05"/>
+
+  <!-- SPY benchmark (dashed) -->
+  <path d="M 652 354 C 780 348, 920 340, 1040 332 S 1150 324, 1174 320" fill="none" stroke="#9FB0CC" stroke-width="2" stroke-dasharray="7 6"/>
+  <!-- strategy curve -->
+  <path d="M 652 350 C 692 358, 720 344, 754 340 S 806 346, 842 330 S 906 312, 952 304 S 1032 298, 1068 290 S 1140 284, 1174 280" fill="none" stroke="url(#curve)" stroke-width="2.5"/>
+  <circle cx="1174" cy="280" r="3.5" fill="#F5A623"/>
+
+  <!-- endpoint labels -->
+  <text x="1196" y="274" text-anchor="end" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#C9D4E8">momentum book</text>
+  <text x="1196" y="312" text-anchor="end" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#9FB0CC">SPY</text>
+
+  <!-- method chips -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#9FB0CC">
+    <rect x="652" y="384" width="150" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+    <text x="727" y="400" text-anchor="middle">no survivorship bias</text>
+    <rect x="814" y="384" width="96" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+    <text x="862" y="400" text-anchor="middle">cost-aware</text>
+    <rect x="922" y="384" width="104" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+    <text x="974" y="400" text-anchor="middle">out-of-sample</text>
+  </g>
+</svg>

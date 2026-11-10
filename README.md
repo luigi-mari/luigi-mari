@@ -13,9 +13,7 @@ Quantitative finance · machine learning · risk management
 
 ## Portfolio
 
-[![Notebook portfolio](https://raw.githubusercontent.com/luigi-mari/luigi-mari/main/portfolio.png)](https://luigi-mari.github.io/Notebook/intro.html)
-
-Interactive notebook portfolio, live on GitHub Pages: rotation strategies, signal diagnostics and ML experiments.
+[![Notebook portfolio - click to open](https://raw.githubusercontent.com/luigi-mari/luigi-mari/main/portfolio-card.svg)](https://luigi-mari.github.io/Notebook/intro.html)
 
 ## Tech Stack & Skills
 
